@@ -1,0 +1,20 @@
+
+‰
+java:S1192V"FDefine a constant instead of duplicating this literal "RIGHT" 4 times.(ß‹¼£8øşï1J$f85cb054-c8d4-457e-8c9a-3a47d9ce8d1d
+“
+java:S1845v"QRename method "playIA" to prevent any misunderstanding/clash with field "playIA".(ŸÒÜ8öøşï1J$5953441a-7062-48a5-8ee8-236daef261f5
+”
+java:S3776v"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ŸÒÜ8üøşï1J$6a252f13-41f2-4270-b899-be892da91a48
+y
+java:S2696w"6Make the enclosing method "static" or remove this set.(Ä×Ğû8ıøşï1J$d4d0c59a-2a65-4310-a788-b9a46bfb2dbb
+¢
+java:S2142‘"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8€øşï1J$4db6aae5-f290-4cc5-9a03-463c16d88fcd
+e	java:S131€""Add a default case to this switch.(Ï“§8öŸİŒ÷1J$4a201fb4-fa0a-436b-a5c0-54efa1a01e83
+›
+java:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(÷‹¾†ÿÿÿÿÿ8…øşï1J$8b19419c-21e0-4788-a5d7-d36136252208
+~
+java:S2209â"5Change this instance-reference to a static reference.(Â¸×‹øÿÿÿÿ8„ İŒ÷1J$1ce72e6e-4fe0-4d7d-b2fd-b4df7c285392
+s
+java:S1128"1Remove this unused import 'javafx.geometry.HPos'.(÷ÓŸ`8 İŒ÷1J$4fdcd2bd-b76c-4a06-81b8-b50b7a18d27c
+„
+java:S1128""<Remove this unused import 'javafx.scene.text.TextAlignment'.(ë¤ßıÿÿÿÿ8 İŒ÷1J$c4e1fbe2-171e-435a-88de-c319b229b7e0

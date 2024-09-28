@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.univartois.butinfo.ihm.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Pane prefHeight="24.0" prefWidth="454.0">
+      <children>
+         <Button fx:id="buttonIA" layoutX="366.0" mnemonicParsing="false" onAction="#playIA" prefHeight="25.0" prefWidth="74.0" text="Play IA" />
+         <Button fx:id="newGame" layoutX="447.0" mnemonicParsing="false" onAction="#restart" text="New Game" />
+         <Label fx:id="scoreLabel" layoutX="23.0" layoutY="-3.0" prefHeight="28.0" prefWidth="214.0" text="Score : 0" textFill="#b02300">
+            <font>
+               <Font name="Verdana Bold" size="22.0" />
+            </font>
+         </Label>
+      </children>
+   </Pane>
+   <GridPane fx:id="tileGrid" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="539.0" VBox.vgrow="ALWAYS">
+     <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+     </columnConstraints>
+     <rowConstraints>
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+     </rowConstraints>
+   </GridPane>
+   <Pane layoutX="30.0" layoutY="30.0" prefHeight="125.0" prefWidth="522.0">
+      <children>
+         <Pane id="up" layoutX="237.0" prefHeight="43.0" prefWidth="48.0">
+            <children>
+               <Button fx:id="up" mnemonicParsing="false" onAction="#up" prefHeight="43.0" prefWidth="48.0" style="-fx-background-color: Yellow;" text="⬆" />
+            </children>
+         </Pane>
+         <Pane id="right" layoutX="285.0" layoutY="41.0" prefHeight="43.0" prefWidth="48.0">
+            <children>
+               <Button fx:id="right" mnemonicParsing="false" onAction="#right" prefHeight="43.0" prefWidth="48.0" style="-fx-background-color: yellow;" text="⮕" />
+            </children>
+         </Pane>
+         <Pane id="down" layoutX="237.0" layoutY="83.0" prefHeight="43.0" prefWidth="48.0">
+            <children>
+               <Button fx:id="down" mnemonicParsing="false" onAction="#down" prefHeight="43.0" prefWidth="48.0" style="-fx-background-color: yellow;" text="⬇" />
+            </children>
+         </Pane>
+         <Pane id="left" layoutX="189.0" layoutY="41.0" prefHeight="43.0" prefWidth="48.0">
+            <children>
+               <Button fx:id="left" mnemonicParsing="false" onAction="#left" prefHeight="43.0" prefWidth="48.0" style="-fx-background-color: yellow;" text="⬅" />
+            </children>
+         </Pane>
+      </children>
+   </Pane>
+</VBox>

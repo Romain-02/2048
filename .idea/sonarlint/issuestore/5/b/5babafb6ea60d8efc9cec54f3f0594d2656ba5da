@@ -1,0 +1,17 @@
+
+]
+java:S2184Œ"@Cast one of the operands of this integer division to a "double".(Ø¸÷^8» İŒ÷1
+c
+java:S2184"@Cast one of the operands of this integer division to a "double".(õè…Åûÿÿÿÿ8» İŒ÷1
+Z
+java:S3518ô"<Make sure "nbCase" can't be zero before doing this division.(ÒŸ‰é8êªİŒ÷1
+€
+java:S1117v"8Rename "rand" which hides the field declared at line 45.(šŸ«íøÿÿÿÿ8æ­ğ1J$07ea0155-f06d-40ff-877e-ec37113c1304
+f
+java:S2119v"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8æ­ğ1J$f88b77e1-2bd6-49d8-a3ce-65ccde0561ea
+–
+java:S3776÷"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ßúİ¾8–æ­ğ1J$bcd3dd7e-55ce-4f7b-93e6-82b5beb1faaa
+_
+java:S1116Œ"Remove this empty statement.(Ø¸÷^8ú ¢­ğ1J$add86a05-b0ab-473a-8235-e71da20fd6d1
+™
+java:S1201¡"UEither override Object.equals(Object), or rename the method to prevent any confusion.(ÚßÌÇ8û ¢­ğ1J$322644e2-8797-4b51-a4a4-576ab54dec66
